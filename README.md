@@ -1,1 +1,1 @@
-![](https://komarev.com/ghpvc/?ananafrida)
+![](https://komarev.com/ghpvc/ananafrida)
