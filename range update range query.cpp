@@ -2,6 +2,7 @@
 we could have used update of segment tree*/
 
 /*problem link: https://www.hackerrank.com/challenges/crush/problem*/
+/*solution idea: https://www.youtube.com/watch?v=hDhf04AJIRs*/
 
 #include<bits/stdc++.h>
 using namespace std;
