@@ -83,7 +83,7 @@ int main()
     int n = 7, l = 2, r = 2, pos = 2, u = 10;
     build(1, 0, n - 1);
     //updating an elements at pos by u units
-    update(1, 0, n - 1, pos - 1, u);
+    //update(1, 0, n - 1, pos - 1, u);
     //doing a query from l to r
     cout << query(1, 0, n - 1, l - 1, r - 1);
 }

@@ -49,8 +49,29 @@ int main()
         }
     }
 }
+
+
+//finding the height of the tree when the sourec is x using dfs
+// int dfs(int x){
+//     visited[x] = 1;
+//     int height = 0;
+//     for(int i = 0; i < int(adj[x].size()); i++){
+//         if(!visited[adj[x][i]]){
+//             height = max(height, 1 + dfs(adj[x][i]));
+//         }
+//     }
+//     return height;
+// }
+
 //******problems solved***********//
 /* 
 - https://codeforces.com/contest/300/problem/B
 - https://codeforces.com/contest/1831/problem/C
 
+// int n, e;
+// string src, u, v;
+// cin >> n >> e >> src; 
+// fo(i, 0, e){
+//     cin >> u >> v;
+//     adj[u].pb(v);
+// }
