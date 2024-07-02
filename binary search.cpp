@@ -43,3 +43,35 @@ int main()
     //if ans == -1, then the number doesn't exist in the array
     ans == -1? cout << "answer not found\n" : cout << "answer found\n";
 }
+
+// finding closest element using binary search
+// def find_closest_element(arr, target):
+//     low, high = 0, len(arr) - 1
+    
+//     if target < arr[0]:
+//         return arr[0]
+//     if target > arr[-1]:
+//         return arr[-1]
+    
+//     while low <= high:
+//         mid = (low + high) // 2
+        
+//         if arr[mid] == target:
+//             return arr[mid]
+//         elif arr[mid] < target:
+//             low = mid + 1
+//         else:
+//             high = mid - 1
+    
+//     # After exiting the loop, low and high have crossed each other
+//     # Compare elements at low and high to find the closest
+//     if abs(arr[low] - target) < abs(arr[high] - target):
+//         return arr[low]
+//     else:
+//         return arr[high]
+
+// # Example usage:
+// arr = [1, 3, 5, 7, 9, 11]
+// target = 6
+// closest = find_closest_element(arr, target)
+// print(f"The closest element to {target} is {closest}")
