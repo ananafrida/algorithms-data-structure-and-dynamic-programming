@@ -68,3 +68,26 @@ print(res)
 
 
 # bfs on a grid/matrix
+def bfs(matrix):
+    ROW, COL = len(matrix), len(matrix[0])
+    visit = set()
+    q = collections.deque()
+    # if source is given
+    q.append(sr, sc)
+
+    # if source not given, then build the q from the matrix
+    # look at the "Rotten Orange" leetcode problem
+
+    while q:
+        dir = [[0, 1], [1, 0], [-1, 0], [0, -1]]
+        row, col = q.popleft()
+        for dr, dc in dir:
+            r, c = row + dr, col + dc
+            # checking if the rows or cols are out of bounds
+            if r >= ROW or r < 0 or c >= COL or c < 0 or (r, c) in visit or #some other condition as needed:
+                continue
+            # do something based on the problem
+            visit.add((r, c))
+            
+
+
