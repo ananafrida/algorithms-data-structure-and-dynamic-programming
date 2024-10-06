@@ -44,7 +44,7 @@ int main()
     ans == -1? cout << "answer not found\n" : cout << "answer found\n";
 }
 
-// finding closest element using binary search
+// finding the closest element using binary search
 // def find_closest_element(arr, target):
 //     low, high = 0, len(arr) - 1
 
