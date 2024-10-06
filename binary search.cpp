@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
- 
+
 #define ll long long
 #define ld long double
 #define fo(i, j, n) for(register int i = j; i < n; i ++)
@@ -10,11 +10,11 @@ using namespace std;
 #define vi vector<int>
 #define MX 1844674407370955161;
 #define MN -1844674407370955161;
- 
+
 const int N = 2e5 + 100;
 
 int main()
-{   
+{
     cin.tie(0);
     cout.tie(0);
     ios_base::sync_with_stdio(false);
@@ -26,7 +26,7 @@ int main()
     ans = -1;
     while(l <= r){ //why l == r equal? incase n is odd
         mid = l + (r - l) / 2;
-        // Check if x is present at mid, then terminate the search process
+        // Check if x is present at mid, then terminate the search process.
         if(arr[mid] == num){
             ans = mid;
             break;
@@ -37,7 +37,7 @@ int main()
         }
         //Check if x is greater than mid, then increase l
         else{
-            l = mid + 1;            
+            l = mid + 1;
         }
     }
     //if ans == -1, then the number doesn't exist in the array
@@ -47,22 +47,22 @@ int main()
 // finding closest element using binary search
 // def find_closest_element(arr, target):
 //     low, high = 0, len(arr) - 1
-    
+
 //     if target < arr[0]:
 //         return arr[0]
 //     if target > arr[-1]:
 //         return arr[-1]
-    
+
 //     while low <= high:
 //         mid = (low + high) // 2
-        
+
 //         if arr[mid] == target:
 //             return arr[mid]
 //         elif arr[mid] < target:
 //             low = mid + 1
 //         else:
 //             high = mid - 1
-    
+
 //     # After exiting the loop, low and high have crossed each other
 //     # Compare elements at low and high to find the closest
 //     if abs(arr[low] - target) < abs(arr[high] - target):
